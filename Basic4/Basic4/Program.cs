@@ -4,20 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Basic3
+namespace Basic4
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int a = 55;
-            int b = 2;
-            int c;
+            var a = 10;
+            var b = 8;            
 
-            c = a / b;
+            Console.WriteLine($"{a} x {b} = {(a * b)}");            
 
-            Console.WriteLine("c = {0}", c);
-                
         }
     }
 }

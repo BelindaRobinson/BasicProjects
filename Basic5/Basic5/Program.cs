@@ -4,20 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Basic3
+namespace Basic5
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int a = 55;
-            int b = 2;
-            int c;
+            int a = 10;
 
-            c = a / b;
+            while (a < 20)
+            {
 
-            Console.WriteLine("c = {0}", c);
-                
+                Console.WriteLine("{0}", a);
+
+                a++;
+
+            }
+
+            Console.ReadLine();
+
         }
     }
 }
