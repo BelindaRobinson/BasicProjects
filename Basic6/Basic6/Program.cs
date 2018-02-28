@@ -11,7 +11,7 @@ namespace Basic6
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Enter the radius of a circke to found the area and perimeter");
+            Console.WriteLine("Enter the radius of a circle to found the area and perimeter");
             const double pi = 3.14159;
             var input = double.Parse(Console.ReadLine());
 

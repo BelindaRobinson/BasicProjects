@@ -10,15 +10,12 @@ namespace Basic5
     {
         static void Main(string[] args)
         {
-            int a = 10;
 
-            while (a < 20)
+            for (int a = 5; a > 20;) 
             {
 
                 Console.WriteLine("{0}", a);
-
-                a++;
-
+                
             }
 
             Console.ReadLine();

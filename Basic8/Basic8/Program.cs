@@ -10,7 +10,17 @@ namespace Basic8
     {
         static void Main(string[] args)
         {
-            var input = Console.ReadLine();
+            var input = double.Parse(Console.ReadLine());
+
+            if (input < 0)
+            {
+                Console.WriteLine("Value was negitive");
+            }
+
+            else
+            {
+                Console.WriteLine("Value was postive");
+            }
 
         }
     }
